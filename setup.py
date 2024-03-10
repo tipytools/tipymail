@@ -16,6 +16,6 @@ setup(
     description='A Python package for sending HTML or Markdown formatted emails securely.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/tipymail',
+    url='https://github.com/tipytools/tipymail',
     license='MIT',
 )
