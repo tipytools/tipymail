@@ -1,12 +1,14 @@
 import unittest
 from tipymail.sender import TipyMailSender
+from credentials import credentials
+
 
 class TestTipyMailSender(unittest.TestCase):
     def test_send_email(self):
         # Set up your test email addresses and credentials here
-        sender_email = "your_email@gmail.com"
-        sender_password = "your_password"
-        recipient_email = "recipient_email@example.com"
+        sender_email = credentials["sender_email"]
+        sender_password = credentials["app_password"]
+        recipient_email = credentials["recipient"]
         subject = "Test Subject"
         body = "Test Body"
 
@@ -15,6 +17,7 @@ class TestTipyMailSender(unittest.TestCase):
 
         # Add assertions as needed
         # For example, check if the email was sent successfully
+
 
 if __name__ == '__main__':
     unittest.main()
