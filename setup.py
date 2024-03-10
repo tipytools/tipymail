@@ -7,6 +7,9 @@ setup(
     install_requires=[
         'markdown',
     ],
+    keywords=[
+        "tipytools", "tipy", "email", "email sender", "email client"
+    ],
     test_suite='tests',
     tests_require=[
         'unittest',
